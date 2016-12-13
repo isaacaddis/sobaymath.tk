@@ -1,3 +1,6 @@
+html,body{
+	overflow-x:hidden;
+}
 .hero{
 	background:black;
 /*	background-image:url('https://media.giphy.com/media/3orif94N8RYTuYNYR2/giphy.gif');
@@ -16,6 +19,17 @@
 hr{
 	width:33.3%;
 }
+p{
+	word-wrap: break-word;
+	overflow-wrap:break-word;
+
+}
+.special-hr{
+	display:inline-block;
+	text-align:left;
+	border: 2px solid black;
+	width:5%;
+}
 h1,h2,h3,h4,h5,h6,a{
 	text-transform: uppercase;
 }
@@ -25,6 +39,9 @@ h1,h2,h3,h4,h5,h6,a{
    background: black;
    border-color: black;
 
+}
+.lowercase{
+	text-transform:lowercase;
 }
 .navbar li { 
 	color: white;
