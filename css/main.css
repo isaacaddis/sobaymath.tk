@@ -16,35 +16,32 @@
 hr{
 	width:33.3%;
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6,a{
 	text-transform: uppercase;
 }
 .navbar {
-    -webkit-transition: all 0.6s ease-out;
-    -moz-transition: all 0.6s ease-out;
-    -o-transition: all 0.6s ease-out;
-    -ms-transition: all 0.6s ease-out;
-    transition: all 0.6s ease-out;
-   background-color: transparent;
-   background: transparent;
-   border-color: transparent;
+	margin-bottom:0;
+   background-color: black;
+   background: black;
+   border-color: black;
+
 }
 .navbar li { 
 	color: white;
 	opacity:1;
  } 
 .navbar.scrolled {
-    background: rgb(68, 68, 68); //IE
-    background: rgba(0, 0, 0, 0.78); //NON-IE
+    background: rgb(68, 68, 68);
+    background: rgba(0, 0, 0, 0.78); 
 }
 .white-text{
 	color:white;
 }
 .btn-circle {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   border: 2px solid #fff;
-  padding-top:15px;
+  padding-top:10px;
   border-radius: 100%;
 }
 
@@ -58,4 +55,59 @@ h1,h2,h3,h4,h5,h6{
 	display:flex;
 	align-items:center;
 	justify-content:center;
+}
+#text-description{
+	padding-bottom:2em;
+}
+.btn{
+	padding:16px 16px;
+	padding-top:10px;
+	position: relative;
+	letter-spacing: 1.5px;
+	border: none;
+	border: 2px solid #fff;
+	color: #fff;
+	padding: 8px 12px;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	position: relative;
+	-webkit-transition-property: color;
+	transition-property: color;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+
+}
+.btn:before{
+		content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #fff;
+	-webkit-transform: scaleY(0);
+	transform: scaleY(0);
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+#special-btn{
+	width: 50px;
+	height: 50px;
+	border: 2px solid #fff;
+	padding-top:10px;
+	padding-left:14px;
+	border-radius: 100%;
 }
