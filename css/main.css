@@ -1,8 +1,9 @@
 html,body{
 	overflow-x:hidden;
+	font-family:'Roboto';
 }
 .hero{
-	background-image:url('http://pics4.city-data.com/cpicv/vfiles35992.jpg');
+	background-image:url('https://i.ytimg.com/vi/Hh7mK-kMhnc/maxresdefault.jpg');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -23,6 +24,9 @@ p{
 	overflow-wrap:break-word;
 
 }
+#about{
+/*	height:400px;
+*/}
 #about-heading, #rules-heading, #register-heading{
 	color:white;
 }
@@ -137,7 +141,6 @@ h1,h2,h3,h4,h5,h6,a{
 	background-color:black;
 	color:white;
 	padding-bottom:20px;	
-	height:50vh;
 }
 #register hr{
 	border: 2px solid white;	
@@ -187,11 +190,12 @@ a{
 	padding-bottom:10px;
 	padding-top:10px;
 	background-color:white;
+	height:400px;
 }
 /*
 	Special thanks to W3Schools for this card code
 */
-.w3-panel{padding:0.01em 16px;margin-top:16px!important;margin-bottom:16px!important}
+.w3-panel{padding:0.01em 16px;margin-top:16px!important;margin-bottom:16px!important;}
 .w3-card-4,.w3-hover-shadow:hover{box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important}
 h4,h5{
 	font-weight:800;
@@ -215,3 +219,17 @@ h4,h5{
 	align-items: center;
 	justify-content: center;
 }
+#resources .w3-panel{
+	background-color:white;
+}
+i:hover {
+    -webkit-animation: pulse infinite 1s;
+    animation: pulse infinite 1s;
+}
+#cardy{
+	width:50%;
+}
+/*.w3-panel:hover{
+	-webkit-animation: bounceInLeft infinite 1s;
+	animation: bounceInLeft infinite 1s;
+}*/

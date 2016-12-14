@@ -10,6 +10,9 @@
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
     </head>
     <body>
         <nav class="navbar navbar-default navbar-fixed-top">
@@ -49,7 +52,7 @@
                 </center>
             </div>
         </div>
-        <div id="about">
+        <div id="about" class = "item" data-aos = "fade-up">
             <div class="row">
                     <div class="col-md-6">
                     	<div class="container">
@@ -58,8 +61,8 @@
 	                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, 
 	                        	<br>
 	                        	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-	                        	<br>
-	                        	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+	                        	<br> 
+	                        	You may also wish to view a <a href="docs/Detailed Schedule SBIMMC.pdf" class = "lowercase">detailed</a> or <a href="docs/Detailed Schedule SBIMMC.pdf" class = "lowercase">summary</a> schedule.
                         </div>
                     </div>
                 <div class="col-md-6">
@@ -70,7 +73,7 @@
                 </div>
             </div>
         </div>
-        <div id="register">
+        <div id="register" class = "item" data-aos = "zoom-out">
         	<h1 class="text-center">Register</h1>
         	<center><hr class="special-hr"></hr></center>
             <p class = "text-center">Please print and fill out these two forms.</p>
@@ -84,24 +87,25 @@
         				</div> -->
                         <center>
                             <a href="docs/SBIMMC_Registration_List.docx" download>
-                            <i class="fa fa-file-pdf-o fa-5x" aria-hidden="true"></i>
-                            </a>
+                            <i class="fa fa-file-pdf-o fa-4x" aria-hidden="true"></i>
                             <h4 class = "white-text nocase">Registration Form (docx)</h4>
+                            </a>
+
                         </center>
         			</div>
         			<div class="col-md-6">
                         <center>
                         <a href="docs/SBIMMC_Registration_List.docx" download>
-                        <i class="fa fa-file-pdf-o fa-5x" aria-hidden="true"></i>
-                        </a>
+                        <i class="fa fa-file-pdf-o fa-4x" aria-hidden="true"></i>
 
                         <h4><a class="white-text nocase"href="docs/SBIMMC Media Release Form.pdf" download>Media Consent Form (pdf)</a></h4>
+
                         </center>
         			</div>
         		</div>
         	</div>
         </div>	
-        <div id="format-rules">
+        <div id="format-rules" class = "item" data-aos = "flip-left">
             <h2 class="text-center">Format & Rules</h2>
             <center><hr class="special-hr"></hr></center>
                 <div class="row">
@@ -109,8 +113,9 @@
                         <div class="card">
                             <center>
                                 <div class="w3-panel w3-card-4">
-                                    <h4>Scoring</h4>
-                                    <p>Lorem ipsum...</p>
+                                    <a href="docs/Scoring.pdf">
+                                        <h4>Scoring</h4>
+                                    </a>
                                 </div>
                             </center>
                         </div>
@@ -118,16 +123,20 @@
                     <div class="col-md-4">
                         <div class="w3-panel w3-card-4">
                             <center>
+                                <a href="docs/Acceptable_Forms_of_Answers.pdf">
                                 <h4>Forms of Answers</h4>
-                                <p>Lorem ipsum...</p>
+                                 </a>
                             </center>
                         </div>
 
                     </div>
                     <div class="col-md-4">
                         <div class="w3-panel w3-card-4">
-                            <h4>Format:</h4>
-                            <p>Lorem testcode...</p>
+                            <center>
+                                <a href="docs/Format.pdf">
+                            <h4>Format</h4>
+                            </a>
+                            </center>
                         </div>
                     </div>
                 </div>
@@ -135,47 +144,52 @@
                     <div class="col-md-4"></div>
                     <div class="col-md-4">
                         <center>
-                            <div class="">
+                            <a href="docs/Awards.pdf">
                             <div class="w3-panel w3-card-4">
-                                <h4>Awards:</h4>
-                                <p>Lorem ipsum...</p>
+                                <h4>Awards</h4>
+                                 
                             </div>
-                        </div>
+                        </a>
                         </center>
                     </div>
                     <div class="col-md-4"></div>
 
                 </div>
         </div>
-        <div id="resources">
+        <div id="resources" class = "item" data-aos = "flip-up">
             <h2 class="text-center">Study Resources</h2>
             <center><hr class="special-hr"></hr></center>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="w3-panel w3-card-4">
-                        <center>
-                            <h4>Recommendations</h4>
-                            <p>Lorem ipsum...</p>
-                            <a class="btn" href = "">Read More</a>
-                        </center>
-                    </div>
-
+            <div class="text-center">
+                <div class="container" id = "cardy">
+                <div class="w3-panel w3-card-4">
+                    <center>
+                        <a href="docs/Recommendations.pdf">
+                        <h4>Recommendations</h4>
+                         
+                        </a>
+                    </center>
                 </div>
+                </div>
+            </div>
+            <div class="row">
             <div class="col-md-4">
                 <div class="w3-panel w3-card-4">
                     <center>
+                        <a href="docs/MC Handbook.pdf">
                         <h4>MC Handbook</h4>
-                        <p>Lorem ipsum...</p>
-                        <a class="btn" href = "">Read More</a>
+                         
+                        </a>
+
                     </center>
                 </div>
 
             </div>
             <div class="col-md-4">
                 <div class="w3-panel w3-card-4">
-                    <h4>2016 MC Contest</h4>
-                    <p>Lorem ipsum...</p>
-                    <a class="btn" href = "">Read More</a>
+                    <a href="https://www.mathcounts.org/programs/competition-series/past-competitions">
+                        <h4>2016 MC Contest</h4>
+                         
+                    </a>
                 </div>
             </div>
             <div class="col-md-4">
@@ -184,23 +198,29 @@
                 <div class="">
                     <center>
                         <div class="w3-panel w3-card-4">
+                            <a href="http://artofproblemsolving.com/wiki/index.php/AMC_8_Problems_and_Solutions">
                             <h4>AMC/8</h4>
-                            <p>Lorem ipsum...</p>
-                            <a class="btn" href = "">Read More</a>
+                             
+                        </a>
                         </div>
                     </center>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="">
-<!--                     <center>
- -->                        <div class="w3-panel w3-card-4">
-                            <h4>Recommendations</h4>
-                            <p>Lorem ipsum...</p>
-                            <a class="btn" href = "">Read More</a>
+
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <center>
+                        <div class="w3-panel w3-card-4">
+                            <a href="https://www.artofproblemsolving.com/store">
+                            <h4>Books at AoPS</h4>
+                             
+                        </a>
                         </div>
-<!--                     </center>
- -->                </div>
+                    </center>
+                </div>
+                <div class="col-md-4"></div>
+
             </div>
             </div>
         </div>
@@ -212,5 +232,6 @@
         <script type="text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script type="text/javascript" src = "js/main.js"></script>
         <script type="text/javascript" src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     </body>
 </html>
