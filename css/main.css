@@ -132,6 +132,8 @@ h1,h2,h3,h4,h5,h6,a{
 	padding-top:10px;
 	background-color:black;
 	color:white;
+	padding-bottom:20px;	
+	height:50vh;
 }
 #register hr{
 	border: 2px solid white;	
@@ -176,4 +178,36 @@ a{
 .nocase{
 	/*Removes uppercase/lowercase styling*/
 	text-transform:none;
+}
+#format-rules{
+	padding-bottom:10px;
+	padding-top:10px;
+	background-color:white;
+}
+/*
+	Special thanks to W3Schools for this card code
+*/
+.w3-panel{padding:0.01em 16px;margin-top:16px!important;margin-bottom:16px!important}
+.w3-card-4,.w3-hover-shadow:hover{box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important}
+h4,h5{
+	font-weight:800;
+}
+#resources{
+	padding-top:10px;
+	padding-bottom:10px;
+	background:black;
+	color:white;
+}
+#footer{
+	background:white;
+	color:black;
+	height:10vh;
+}
+#footer a{
+	color:black;
+}
+.valign{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
