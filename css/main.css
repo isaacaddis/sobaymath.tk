@@ -2,9 +2,8 @@ html,body{
 	overflow-x:hidden;
 }
 .hero{
-	background:black;
-/*	background-image:url('https://media.giphy.com/media/3orif94N8RYTuYNYR2/giphy.gif');
-*/	-webkit-background-size: cover;
+	background-image:url('http://pics4.city-data.com/cpicv/vfiles35992.jpg');
+	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
@@ -24,6 +23,10 @@ p{
 	overflow-wrap:break-word;
 
 }
+#about-heading, #rules-heading, #register-heading{
+	color:white;
+}
+
 .special-hr{
 	display:inline-block;
 	text-align:left;
@@ -35,9 +38,10 @@ h1,h2,h3,h4,h5,h6,a{
 }
 .navbar {
 	margin-bottom:0;
-   background-color: black;
-   background: black;
-   border-color: black;
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+   color:white;
 
 }
 .lowercase{
