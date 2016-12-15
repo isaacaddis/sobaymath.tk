@@ -222,6 +222,9 @@ h4,h5{
 	align-items: center;
 	justify-content: center;
 }
+#resources{
+	padding-top:10px;
+}
 #resources .w3-panel{
 	background-color:white;
 }
@@ -230,7 +233,7 @@ i:hover {
     animation: pulse infinite 1s;
 }
 #cardy{
-	width:50%;
+	width:300px;
 }
 /*.w3-panel:hover{
 	-webkit-animation: bounceInLeft infinite 1s;
