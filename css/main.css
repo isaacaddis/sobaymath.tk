@@ -22,11 +22,14 @@ hr{
 p{
 	word-wrap: break-word;
 	overflow-wrap:break-word;
-
+	overflow:visible;
+	line-height: normal;
+	font-size:15px;
+	overflow-x:visible;
 }
 #about{
-/*	height:400px;
-*/}
+	padding-bottom:10px;
+}
 #about-heading, #rules-heading, #register-heading{
 	color:white;
 }
